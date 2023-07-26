@@ -1,4 +1,4 @@
-use protos::pipeline::{WASMExitCode, WASMRequest};
+use protos::wasm::{WASMExitCode, WASMRequest};
 use protos::transform::TransformType;
 use snitch_transform::transform;
 
