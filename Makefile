@@ -25,7 +25,9 @@ setup/darwin:
 
 .PHONY: build
 build: description = Build all targets
-build: clean build/detective build/transform build/httprequest build/kv build/inferschema
+build:
+	make clean
+	make --jobs=5 build/detective build/transform build/httprequest build/kv build/inferschema
 
 .PHONY: build/detective
 build/detective: description = Build WASM target for detective
