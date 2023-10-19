@@ -10,9 +10,10 @@ crate-type = ["cdylib"]
 
 [dependencies]
 protobuf = "3.2.0"
-snitch-protos = "0.0.97"
-snitch-transform = "0.0.6"
 common = { path = "../common" }
+streamdal-protos = "0.0.115"
+streamdal-transform = "0.0.7"
+sha256 = "=1.1.4"
 
 [profile.release]
 lto = true

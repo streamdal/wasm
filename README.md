@@ -1,6 +1,6 @@
-# snitch-wasm
+# wasm
 
-This repository contains all of the WASM funcs used by `snitch` components.
+This repository contains all of the WASM funcs used by Streamdal server+SD components.
 
 To build: `make build`
 
@@ -22,7 +22,7 @@ We get another 15-20% reduction by using `wasm-opt` (with `Os` flag).
 Result is as follows:
 
 ```bash
-~/Code/streamdal/snitch-wasm/build main* ⇡                                                                          2h41m ✖ ⚑ ◒
+~/Code/streamdal/wasm/build main* ⇡                                                                          2h41m ✖ ⚑ ◒
 ❯ du -sh *
 1.9M	detective.lto+wasm-opt.wasm
 2.4M	detective.lto-only.wasm

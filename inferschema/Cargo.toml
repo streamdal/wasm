@@ -13,8 +13,8 @@ infers-jsonschema = "0.1.0"
 serde_json = "1.0.107"
 protobuf = "3.2.0"
 common = { path = "../common" }
-snitch-protos = "0.0.97"
 serde_json_diff = "0.2.0"
+streamdal-protos = "0.0.115"
 
 [profile.release]
 lto = true
