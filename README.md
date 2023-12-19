@@ -3,6 +3,8 @@ Wasm
 [![Release WASM files](https://github.com/streamdal/wasm/actions/workflows/release.yml/badge.svg)](https://github.com/streamdal/wasm/actions/workflows/release.yml)
 [![Pull Request](https://github.com/streamdal/wasm/actions/workflows/pr.yml/badge.svg)](https://github.com/streamdal/wasm/actions/workflows/pr.yml)
 
+# [THIS REPO HAS MOVED!](https://github.com/streamdal/mono)
+
 This repository contains all of the Wasm funcs used by various 
 [Streamdal](https://github.com/streamdal/streamdal) components.
 
